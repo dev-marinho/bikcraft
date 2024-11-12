@@ -163,3 +163,15 @@ img {
 .introducao a:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 32px;
+  }
+}
